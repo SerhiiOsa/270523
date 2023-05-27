@@ -1,0 +1,75 @@
+user@DESKTOP-DSAAQPG MINGW64 /c/Програмування/Repozitory/270523 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new.TXT
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+------------------------------------------
+
+user@DESKTOP-DSAAQPG MINGW64 /c/Програмування/Repozitory/270523 (main)
+$ git branch
+* main
+  new_branch
+
+-------------------------------------------
+
+user@DESKTOP-DSAAQPG MINGW64 /c/Програмування/Repozitory/270523 (main)
+$ git log
+commit 30d8648831176e0c81fc160666b492e4f21b6359 (HEAD -> main, origin/main, origin/HEAD)
+Author: SerhiiOsa <123640927+SerhiiOsa@users.noreply.github.com>
+Date:   Sat May 27 13:24:12 2023 +0300
+
+    Create text.txt
+
+commit d83cd1d151ce6eaadc93c2d020a6d7a3738cfb69
+Merge: 01fe42d aff2133
+Author: Serhii Osa <oserdevit@gmail.com>
+Date:   Sat May 27 13:21:17 2023 +0300
+
+    Merge branch 'new_branch'
+
+commit 01fe42dbe43db47a26569115fac9a2d09ddb9cba
+Author: Serhii Osa <oserdevit@gmail.com>
+Date:   Sat May 27 13:18:15 2023 +0300
+
+    add text to index.html
+
+commit aff2133c8f8f656930f76145aa453e7242235593 (origin/new_branch, new_branch)
+Author: Serhii Osa <oserdevit@gmail.com>
+Date:   Sat May 27 13:08:42 2023 +0300
+
+    add script.js
+
+commit 994f008b7615fa21aee442873aabc5684c7bba1b
+Author: Serhii Osa <oserdevit@gmail.com>
+Date:   Sat May 27 13:07:01 2023 +0300
+
+    add changes to index.html
+
+commit 159d848c16efc4db27cdd324b377b005c7becd8a
+Author: Serhii Osa <oserdevit@gmail.com>
+Date:   Sat May 27 12:59:37 2023 +0300
+
+    add index.html
+
+commit 0b69f2c5bbbf4c095f6a51a5cd2dde858ec08bc7
+Author: SerhiiOsa <123640927+SerhiiOsa@users.noreply.github.com>
+Date:   Sat May 27 12:57:05 2023 +0300
+
+    Initial commit
+
+----------------------------------------------
+
+user@DESKTOP-DSAAQPG MINGW64 /c/Програмування/Repozitory/270523 (main)
+$ git log --merges
+commit d83cd1d151ce6eaadc93c2d020a6d7a3738cfb69
+Merge: 01fe42d aff2133
+Author: Serhii Osa <oserdevit@gmail.com>
+Date:   Sat May 27 13:21:17 2023 +0300
+
+    Merge branch 'new_branch'
